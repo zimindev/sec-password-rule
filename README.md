@@ -10,25 +10,26 @@ A practical guide for creating, storing, managing, and protecting passwords acro
 
 * [1. Strong Passwords](#1--strong-passwords)
 * [2. Password Length](#2--password-length)
-* [3. Password Uniqueness](#3--password-uniqueness)
-* [4. Passphrases](#4--passphrases)
-* [5. Password Managers](#5--password-managers)
-* [6. Multi-Factor Authentication](#6--multi-factor-authentication)
-* [7. Passkeys](#7--passkeys)
-* [8. Recovery Codes](#8--recovery-codes)
-* [9. Administrative Passwords](#9--administrative-passwords)
-* [10. Server & SSH Passwords](#10--server--ssh-passwords)
-* [11. Wi-Fi Passwords](#11--wi-fi-passwords)
-* [12. Password Storage](#12--password-storage)
-* [13. Password Sharing](#13--password-sharing)
-* [14. Password Changes](#14--password-changes)
-* [15. Leaked Passwords](#15--leaked-passwords)
-* [16. Protection Against Phishing](#16--protection-against-phishing)
-* [17. Account Lockout & Rate Limiting](#17--account-lockout--rate-limiting)
-* [18. Backup & Recovery](#18--backup--recovery)
-* [19. Recommended Password Policy](#19--recommended-password-policy)
-* [20. Security Checklist](#20--security-checklist)
-* [21. Golden Rules](#21--golden-rules)
+* [3. Strong Password Examples](#3--strong-password-examples)
+* [4. Password Uniqueness](#4--password-uniqueness)
+* [5. Passphrases](#5--passphrases)
+* [6. Password Managers](#6--password-managers)
+* [7. Multi-Factor Authentication](#7--multi-factor-authentication)
+* [8. Passkeys](#8--passkeys)
+* [9. Recovery Codes](#9--recovery-codes)
+* [10. Administrative Passwords](#10--administrative-passwords)
+* [11. Server & SSH Passwords](#11--server--ssh-passwords)
+* [12. Wi-Fi Passwords](#12--wi-fi-passwords)
+* [13. Password Storage](#13--password-storage)
+* [14. Password Sharing](#14--password-sharing)
+* [15. Password Changes](#15--password-changes)
+* [16. Leaked Passwords](#16--leaked-passwords)
+* [17. Protection Against Phishing](#17--protection-against-phishing)
+* [18. Account Lockout & Rate Limiting](#18--account-lockout--rate-limiting)
+* [19. Backup & Recovery](#19--backup--recovery)
+* [20. Recommended Password Policy](#20--recommended-password-policy)
+* [21. Security Checklist](#21--security-checklist)
+* [22. Golden Rules](#22--golden-rules)
 
 ---
 
@@ -88,15 +89,198 @@ Recommended minimums:
 
 When a password manager is available, prefer a randomly generated password rather than creating one manually.
 
-Example:
+---
+
+# 3. 🔐 Strong Password Examples
+
+The following are examples of **strong password formats**.
+
+> ⚠️ **Important:** These passwords are examples only. Do not use the exact passwords below for real accounts because they are publicly documented.
+
+### Random complex passwords
+
+```text
+v7!Qm2#Lp9@Tx4$Nz8&Kr5
+G4@xP9!rL2#Vm7$Qz8^Nt6
+R8#kT4!wP7@Lm2$Xq9&Vc5
+mQ7$Zp3!Kx9@Hr5#Tw8&Ln2
+Y5@vN8#qR2!Km7$Xp4^Ld9
+```
+
+### Longer random passwords
+
+```text
+F7@qL2#vN9!xR4$kT8%pM6&zC3
+W9!rK4@xP7#nL2$V8^qT5&hM6
+aR8#Lm3!Qv7@Xp2$K9&Nt5%Z4
+```
+
+### High-entropy style
+
+```text
+7x!Q9@Lm#2Vr$8Tp%4Nz&6Kp
+@9Fq#7Lm2!Rx$8Vt4%Np6&Zk
+3$Kx!9Qv@7Lm#2Rt8^Np4&Yz
+```
+
+These examples demonstrate a combination of:
+
+```text
+Uppercase letters
+Lowercase letters
+Numbers
+Special characters
+Long length
+Randomness
+```
+
+However, **randomness and uniqueness are more important than simply adding many special characters**.
+
+---
+
+## 🎲 Best Practice: Generate Passwords Automatically
+
+Instead of manually creating passwords, use a password manager or a cryptographically secure password generator.
+
+For example:
+
+```text
+Length:        32 characters
+Uppercase:     Enabled
+Lowercase:     Enabled
+Numbers:       Enabled
+Symbols:       Enabled
+Randomness:    Cryptographically secure
+```
+
+Example output:
+
+```text
+N7@xQ2!vL9#rT4$kP8&mZ5^wC3
+```
+
+Another example:
+
+```text
+pR8$2v!Kq7@Lm4#Xz9&Tn6%Fw
+```
+
+Again, these are **demonstration examples only**.
+
+---
+
+# 🧠 Memorable Strong Passwords
+
+If a password must be memorized, use a long passphrase rather than a short complicated password.
+
+Examples:
+
+```text
+River-Coffee-Mountain-Window-Planet
+```
+
+```text
+Silver!Forest!Rocket!Candle!Ocean
+```
+
+```text
+Purple-Harbor-7-Cloud-Morning-Train
+```
+
+Long random passphrases can be significantly easier to remember than strings of random characters.
+
+However, for most accounts, a password manager can generate and store a completely random password.
+
+---
+
+# 🏆 Recommended Password Examples by Use Case
+
+### 👤 Normal Account
 
 ```text
 v7!Qm2#Lp9@Tx4$Nz8&Kr5
 ```
 
+### 📧 Email Account
+
+```text
+F7@qL2#vN9!xR4$kT8%pM6&zC3
+```
+
+### 🛡️ Administrator Account
+
+```text
+W9!rK4@xP7#nL2$V8^qT5&hM6
+```
+
+### 📡 Wi-Fi
+
+```text
+Silver-River-84!Mountain-Cloud
+```
+
+### 🖥️ Server
+
+```text
+aR8#Lm3!Qv7@Xp2$K9&Nt5%Z4
+```
+
+### 🔐 Password Manager Master Password
+
+Prefer a long unique passphrase:
+
+```text
+River-Moon-Glass-Orange-Planet-47
+```
+
+For a password manager master password, prioritize **length, memorability, and uniqueness**.
+
 ---
 
-# 3. ♻️ Password Uniqueness
+# ❌ Weak vs Strong
+
+| Weak          | Strong                       |
+| ------------- | ---------------------------- |
+| `password123` | `v7!Qm2#Lp9@Tx4$Nz8&Kr5`     |
+| `Admin123!`   | `F7@qL2#vN9!xR4$kT8%pM6&zC3` |
+| `Qwerty2026!` | `W9!rK4@xP7#nL2$V8^qT5&hM6`  |
+| `MyPassword!` | `aR8#Lm3!Qv7@Xp2$K9&Nt5%Z4`  |
+| `Summer2026!` | `N7@xQ2!vL9#rT4$kP8&mZ5^wC3` |
+| `Company@123` | `3$Kx!9Qv@7Lm#2Rt8^Np4&Yz`   |
+
+---
+
+# ⚠️ Do Not Make Passwords Predictable
+
+Avoid patterns such as:
+
+```text
+Password1!
+Password2!
+Password3!
+```
+
+or:
+
+```text
+Summer2026!
+Summer2027!
+Summer2028!
+```
+
+or:
+
+```text
+Admin@123
+Admin@1234
+Admin@12345
+```
+
+Changing only one or two characters does not create a truly independent password.
+
+---
+
+# 4. ♻️ Password Uniqueness
 
 **Never reuse passwords between important services.**
 
@@ -114,21 +298,11 @@ Routers
 Work accounts
 ```
 
-### Recommended
-
-```text
-Google       → Password A
-GitHub       → Password B
-Cloud        → Password C
-Router       → Password D
-Email        → Password E
-```
-
 Every important account should have its own credential.
 
 ---
 
-# 4. 🧠 Passphrases
+# 5. 🧠 Passphrases
 
 A passphrase can be easier to remember while still providing substantial length.
 
@@ -146,11 +320,9 @@ correct-harbor-seven-lamp-canyon-orbit
 
 Avoid using famous quotations, song lyrics, movie phrases, or common sentences.
 
-Do not assume that adding a number or `!` to a common phrase makes it secure.
-
 ---
 
-# 5. 🔐 Password Managers
+# 6. 🔐 Password Managers
 
 Use a reputable **password manager** to generate and store unique passwords.
 
@@ -165,24 +337,6 @@ A password manager can provide:
 * Passkey support
 * Cross-device synchronization
 
-### Recommended model
-
-```text
-                MASTER PASSWORD
-                       │
-                       ▼
-               ┌──────────────┐
-               │   PASSWORD   │
-               │    MANAGER   │
-               └──────┬───────┘
-                      │
-        ┌─────────────┼─────────────┐
-        ▼             ▼             ▼
-      Email         GitHub        Cloud
-      Random        Random        Random
-     Password      Password      Password
-```
-
 The password manager's master password is extremely important.
 
 Protect it with:
@@ -194,7 +348,7 @@ Protect it with:
 
 ---
 
-# 6. 🛡️ Multi-Factor Authentication
+# 7. 🛡️ Multi-Factor Authentication
 
 Passwords alone are not always enough.
 
@@ -210,9 +364,7 @@ Recommended priority:
 5. SMS
 ```
 
-SMS-based authentication is generally weaker than phishing-resistant methods, but it can still be better than password-only authentication when stronger options are unavailable.
-
-### Enable MFA first on:
+Enable MFA first on:
 
 * Primary email
 * Password manager
@@ -227,51 +379,21 @@ SMS-based authentication is generally weaker than phishing-resistant methods, bu
 
 ---
 
-# 7. 🔐 Passkeys
+# 8. 🔐 Passkeys
 
 Where supported, consider using **passkeys** instead of traditional passwords.
 
 Passkeys use public-key cryptography and are designed to resist many forms of phishing.
 
-Typical model:
-
-```text
-Device
-   │
-   ├── Biometric
-   ├── PIN
-   └── Device Authentication
-             │
-             ▼
-          Passkey
-             │
-             ▼
-           Account
-```
-
-Never share or export private authentication credentials unnecessarily.
-
 ---
 
-# 8. 🧾 Recovery Codes
+# 9. 🧾 Recovery Codes
 
 When enabling MFA, many services provide recovery codes.
 
 Treat recovery codes like highly sensitive credentials.
 
-### Recommended
-
-```text
-Generate recovery codes
-        ↓
-Store securely
-        ↓
-Keep an offline backup
-        ↓
-Do not publish or share them
-```
-
-Do not store recovery codes in:
+Never store recovery codes in:
 
 ```text
 Public GitHub repositories
@@ -284,7 +406,7 @@ Unencrypted notes
 
 ---
 
-# 9. 👑 Administrative Passwords
+# 10. 👑 Administrative Passwords
 
 Administrative accounts require additional protection.
 
@@ -310,45 +432,19 @@ root / root
 administrator / password
 ```
 
-### Principle
-
-```text
-Normal Account
-      │
-      ▼
-Daily Work
-
-Admin Account
-      │
-      ▼
-Administrative Tasks
-```
-
-Avoid using administrator accounts for everyday browsing, email, and general activities.
+Avoid using administrator accounts for everyday activities.
 
 ---
 
-# 10. 🖥️ Server & SSH Passwords
+# 11. 🖥️ Server & SSH Passwords
 
 For Linux and Unix servers, prefer **SSH keys** over password authentication.
 
-Recommended architecture:
-
-```text
-Client
-  │
-  │ SSH Key
-  ▼
-Server
-```
-
-Use:
+Recommended key type:
 
 ```text
 Ed25519
 ```
-
-where supported.
 
 Example:
 
@@ -356,19 +452,13 @@ Example:
 ssh-keygen -t ed25519
 ```
 
-After confirming key-based authentication works, consider disabling SSH password authentication:
-
-```text
-PasswordAuthentication no
-```
-
-Do not disable password authentication until you have verified that your SSH key login works.
+After confirming key-based authentication works, consider disabling SSH password authentication.
 
 ---
 
-# 11. 📡 Wi-Fi Passwords
+# 12. 📡 Wi-Fi Passwords
 
-Wi-Fi passwords should also be unique and sufficiently long.
+Wi-Fi passwords should be unique and sufficiently long.
 
 Recommended:
 
@@ -386,37 +476,15 @@ Example:
 Silver-River-Cloud-84!Mountain
 ```
 
-Do not reuse your Wi-Fi password for:
-
-```text
-Email
-GitHub
-Router administration
-Cloud accounts
-VPN
-SSH
-```
-
-Your router administrator password should always be different from your Wi-Fi password.
+Do not reuse your Wi-Fi password for other services.
 
 ---
 
-# 12. 💾 Password Storage
+# 13. 💾 Password Storage
 
-Never store passwords in plain-text files unless there is a specific, controlled technical requirement and appropriate protection.
+Never store passwords in public repositories or plain-text files unnecessarily.
 
-Avoid:
-
-```text
-passwords.txt
-credentials.txt
-notes.txt
-desktop.txt
-```
-
-Also avoid committing credentials to Git repositories.
-
-Never put secrets directly into:
+Never put credentials directly into:
 
 ```text
 GitHub
@@ -427,9 +495,7 @@ Screenshots
 Public documentation
 ```
 
-### For applications
-
-Use:
+For applications, use:
 
 ```text
 Environment variables
@@ -441,11 +507,11 @@ OS credential stores
 
 ---
 
-# 13. 🤝 Password Sharing
+# 14. 🤝 Password Sharing
 
 Do not send passwords through insecure channels.
 
-Avoid sending credentials through:
+Avoid:
 
 ```text
 Public chats
@@ -457,37 +523,27 @@ Screenshots
 Public documents
 ```
 
-If credentials must be shared:
-
-* Use an approved secure password-sharing mechanism.
-* Share the minimum necessary information.
-* Change the password after temporary access is no longer required.
-* Revoke access when the task is complete.
+If credentials must be shared, use an approved secure password-sharing mechanism and rotate the credential afterward when appropriate.
 
 ---
 
-# 14. 🔄 Password Changes
+# 15. 🔄 Password Changes
 
-Do **not** rely on arbitrary periodic password changes as your primary security strategy.
+Do not rely on arbitrary periodic password changes as your primary security strategy.
 
-Instead, change a password when:
+Change a password when:
 
 * It has been exposed.
 * A service reports a breach.
 * You suspect unauthorized access.
 * Someone who knew the password should no longer have access.
 * The password was reused elsewhere.
-* The account's security requirements change.
-
-For important accounts, use unique passwords from the beginning.
 
 ---
 
-# 15. 🚨 Leaked Passwords
+# 16. 🚨 Leaked Passwords
 
 If you discover that a password has been leaked:
-
-### Immediately
 
 ```text
 1. Change the password.
@@ -499,11 +555,11 @@ If you discover that a password has been leaked:
 7. Review recent account activity.
 ```
 
-If the leaked password was reused on multiple services, treat **all of those accounts as potentially compromised**.
+Treat reused credentials as potentially compromised across all affected services.
 
 ---
 
-# 16. 🎣 Protection Against Phishing
+# 17. 🎣 Protection Against Phishing
 
 A strong password does not protect you if you voluntarily provide it to an attacker.
 
@@ -511,8 +567,6 @@ Before entering credentials:
 
 ```text
 Check the domain
-        ↓
-Check HTTPS
         ↓
 Check the website
         ↓
@@ -527,11 +581,10 @@ Be suspicious of:
 * Fake login pages
 * Unexpected MFA requests
 * Suspicious attachments
-* Shortened URLs
 * Look-alike domains
 * Messages asking for verification codes
 
-### Never provide
+Never provide your:
 
 ```text
 Password
@@ -545,7 +598,7 @@ to someone who contacts you unexpectedly.
 
 ---
 
-# 17. 🚦 Account Lockout & Rate Limiting
+# 18. 🚦 Account Lockout & Rate Limiting
 
 For systems you administer, protect authentication endpoints against automated attacks.
 
@@ -555,7 +608,6 @@ Consider:
 Rate limiting
 Login throttling
 Account lockout
-CAPTCHA where appropriate
 MFA
 IP reputation controls
 Fail2ban
@@ -570,13 +622,9 @@ Allowlisted IPs
 Private network
 ```
 
-rather than relying only on password protection.
-
 ---
 
-# 18. 💾 Backup & Recovery
-
-Security also requires reliable recovery.
+# 19. 💾 Backup & Recovery
 
 Keep secure backups of:
 
@@ -597,27 +645,14 @@ Backups should be:
 * Tested periodically
 * Stored separately from the primary system
 
-### Example
-
-```text
-Primary Password Manager
-          │
-          ├──────────────► Encrypted Backup
-          │
-          └──────────────► Offline Backup
-```
-
-A backup that has never been tested should not be considered reliable.
-
 ---
 
-# 19. 🛡️ Recommended Password Policy
-
-A strong general-purpose policy:
+# 20. 🛡️ Recommended Password Policy
 
 ```text
 Minimum password length     → 16 characters
 High-value accounts         → 20+ characters
+Generated passwords         → 20–32+ characters
 Unique passwords             → Required
 Password manager             → Recommended
 MFA                          → Enabled
@@ -631,7 +666,7 @@ Plain-text credential files  → Avoid
 
 ---
 
-# 20. 📝 Security Checklist
+# 21. 📝 Security Checklist
 
 ### Passwords
 
@@ -680,7 +715,7 @@ Plain-text credential files  → Avoid
 
 ---
 
-# 21. 🔥 Golden Rules
+# 22. 🔥 Golden Rules
 
 > **1. Use a different password for every important account.**
 
@@ -708,9 +743,7 @@ Plain-text credential files  → Avoid
 
 ---
 
-# 🔒 Security Model
-
-A strong authentication setup should look like:
+## 🔒 Security Model
 
 ```text
                  ┌──────────────────┐
@@ -758,8 +791,6 @@ Strong Authentication Security
 ---
 
 ## 📌 Final Recommendation
-
-The best password is not necessarily the one you can memorize.
 
 For most accounts, the ideal approach is:
 
